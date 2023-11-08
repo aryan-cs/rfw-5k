@@ -46,7 +46,8 @@ export const Registration = () => {
             email: email,
             gender: gender,
             age: age,
-            size: size
+            size: size,
+            checkedIn: false
         });
 
         updateStats();

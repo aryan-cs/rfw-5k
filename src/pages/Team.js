@@ -28,6 +28,8 @@ export const Team = () => {
 
   return (
 
+    <>
+
     <div className = "content" id="team">
 
         <div className = "carouselContainer">
@@ -113,7 +115,15 @@ export const Team = () => {
         <div className = "next" onClick = {next}><MdOutlineArrowForwardIos /></div>
         <div className = "prev" onClick = {prev}><MdOutlineArrowBackIos /></div>
 
-    </div>
+      </div>
+
+      <p className = "honorableMentions">
+
+            Thank you to Kush Patel and Sneha Adhikari for your contributions to the cause!
+
+      </p>
+
+      </>
 
   )
 

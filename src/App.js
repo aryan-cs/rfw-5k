@@ -7,7 +7,7 @@ import { About } from './pages/About';
 import { Impact } from './pages/Impact';
 import { Team } from './pages/Team';
 import { Donation } from './pages/Donation';
-import {Registration} from './pages/Registration'
+import { Registration } from './pages/Registration'
 
 function App () {
 
@@ -28,7 +28,7 @@ function App () {
         <About/>
         <Impact />
         <Team />
-        <Registration/>
+        {/* <Registration/> */}
         <Donation />
       </div>
 

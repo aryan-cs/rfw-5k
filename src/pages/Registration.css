@@ -5,7 +5,7 @@
 #registration{
     height: 100vh;
     padding-top: 10vh;
-    overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 .form-row {
@@ -36,7 +36,7 @@ label {
     font-size: 2vh;
     line-height: 1.5;
     color: rgb(232, 232, 232);
-    background-color: #2d2d2d34;
+    /* background-color: #2d2d2d34; */
     box-shadow: 0 0 4px 2px #00000034;
     background-clip: padding-box;
     border: none;

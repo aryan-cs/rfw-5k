@@ -49,6 +49,21 @@
 .next { right: 37vw; }
 .prev { left: 37vw; }
 
+.honorableMentions {
+
+    padding: 0 8.5vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -15vh;
+    color: rgb(90, 90, 90);
+    font-family: var(--norm);
+    font-size: 2vh;
+
+}
+
 @media screen and (max-width: 990px) {
 
     .next, .prev {

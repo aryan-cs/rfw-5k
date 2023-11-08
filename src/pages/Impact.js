@@ -54,7 +54,7 @@ export const Impact = () => {
 
             {/* <h1>$<CountUp end = {moneyRaised} duration = {3}></CountUp></h1> */}
             <div ref={sectionRef} className="count-up-section">
-              {counted && <div className="count-up-animation"><h1>$<CountUp end = {moneyRaised} duration = {6}></CountUp></h1></div>}
+              {counted && <div className="count-up-animation"><h1>$<CountUp end = {moneyRaised} duration = {4}></CountUp></h1></div>}
             </div>
             <h3>RAISED</h3>
 
@@ -66,7 +66,7 @@ export const Impact = () => {
 
               {/* <h1><CountUp end = {volunteers} duration = {2}></CountUp></h1> */}
               {/* <div ref={sectionRef} className="count-up-section"> */}
-                {counted && <div className="count-up-animation"><h1><CountUp end = {volunteers} duration = {2}></CountUp></h1></div>}
+                {counted && <div className="count-up-animation"><h1><CountUp end = {volunteers} duration = {4}></CountUp></h1></div>}
               {/* </div> */}
               <h3>VOLUNTEERS</h3>
 
@@ -75,7 +75,7 @@ export const Impact = () => {
             <div className = "impactStats">
 
               {/* <h1><CountUp end = {runners} duration = {2}></CountUp></h1> */}
-              {counted && <div className="count-up-animation"><h1><CountUp end = {runners} duration = {3}></CountUp></h1></div>}
+              {counted && <div className="count-up-animation"><h1><CountUp end = {runners} duration = {4}></CountUp></h1></div>}
               <h3>RUNNERS</h3>
 
             </div>
@@ -92,14 +92,14 @@ export const Impact = () => {
             <div className = "impactStats">
 
               {/* <h1>1</h1> */}
-              {counted && <div className="count-up-animation"><h1><CountUp end = {1} duration = {5}></CountUp></h1></div>}
+              {counted && <div className="count-up-animation"><h1><CountUp end = {1} duration = {4}></CountUp></h1></div>}
               <h3>CAUSE</h3>
 
             </div>
 
           </div>
 
-          <h6 className = "disclaimer">These numbers are all up-to-date.</h6>
+          <h6 className = "disclaimer">These numbers are live and up-to-date!</h6>
 
       </div>
 

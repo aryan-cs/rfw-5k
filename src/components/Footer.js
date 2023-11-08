@@ -31,14 +31,11 @@ export const Footer = () => {
   return (
     <footer>
       <div className="container" id = "footerContainer">
-          <div className="row">
+          {/* <div className="row">
               <p className='footerTitle'>THANK YOU TO OUR SPONSORS!</p>
-          </div>
+          </div> */}
           <div className='row sponsorsRow sponsors'>
-            <div className='col'>
-              <a href="#"><img src = {process.env.PUBLIC_URL + "/assets/rfw.png"} alt = "RFW" className = "sponsor" /></a>
-            </div>
-            <div className='col'>
+            {/* <div className='col'>
             <a href="#"><img src = {process.env.PUBLIC_URL + "/assets/rfw.png"} alt = "RFW" className = "sponsor" /></a>
             </div>
             <div className='col'>
@@ -53,6 +50,9 @@ export const Footer = () => {
             <div className='col'>
             <a href="#"><img src = {process.env.PUBLIC_URL + "/assets/rfw.png"} alt = "RFW" className = "sponsor" /></a>
             </div>
+            <div className='col'>
+            <a href="#"><img src = {process.env.PUBLIC_URL + "/assets/rfw.png"} alt = "RFW" className = "sponsor" /></a>
+            </div> */}
 
             <p className='sponsorMessage'>
               We are currently looking for more sponsors.
