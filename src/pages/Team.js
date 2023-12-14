@@ -119,7 +119,7 @@ export const Team = () => {
 
       <p className = "honorableMentions">
 
-            Thank you to Kush Patel and Sneha Adhikari for your contributions to the cause!
+            Thank you to Kush Patel and Sneha Adhikari for your contributions to the project!
 
       </p>
 

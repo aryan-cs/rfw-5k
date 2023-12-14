@@ -58,9 +58,10 @@
     display: flex;
     flex-direction: column;
     margin-top: -15vh;
-    color: rgb(90, 90, 90);
-    font-family: var(--norm);
-    font-size: 2vh;
+    /* color: rgb(90, 90, 90); */
+    color: var(--secondary);
+    font-family: var(--chunky);
+    font-size: 2.25vh;
 
 }
 
